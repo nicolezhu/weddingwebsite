@@ -19,7 +19,7 @@ img, picture, video, canvas, svg {
 .container-header, .container-image {
   display: flex;
   flex: 1 0 25%;
-  background: #E9D2FF;
+  background: #f1edd8;
 }
 
 .container-header:before, .container-image:before {
@@ -42,13 +42,27 @@ img, picture, video, canvas, svg {
 
 .header-text {
   text-align: center;
+  text-transform: uppercase;
   font-family: 'Courier New', serif;
 }
 
-.header-text h1, .header-details {
+.header-details {
   margin-bottom: 1em;
 }
 
 .header-text a {
+  letter-spacing: 0.13em;
   color: #000000;
+}
+
+.header-image {
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+.date {
+  max-width: 250px;
+  margin: 0 auto;
+  margin-bottom: 5em;
 }
