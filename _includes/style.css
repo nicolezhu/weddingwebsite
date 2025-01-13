@@ -1,22 +1,54 @@
-body {
-  font-family: sans-serif;
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
   display: flex;
+
+}
+
+.container-header, .container-image {
+  display: flex;
+  flex: 1 0 25%;
+  background: #E9D2FF;
+}
+
+.container-header:before, .container-image:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.container-image {
+  background-image: url("/assets/coming-soon.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 75%;
+}
+
+.container-header {
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  height: 98vh;
-  background-color: white;
-  background-image: radial-gradient(rgb(189, 189, 189) 1px, white 1px);
-  background-size: 20px 20px;
-  font-weight: 100;
 }
 
-h2 {
-  font-weight: 100;
-  margin-top: 0;
+.header-text {
+  text-align: center;
+  font-family: 'Courier New', serif;
 }
 
-img {
-  width: 2em;
-  vertical-align: middle;
+.header-text h1, .header-details {
+  margin-bottom: 1em;
+}
+
+.header-text a {
+  color: #000000;
 }
