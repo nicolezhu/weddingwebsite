@@ -1,11 +1,11 @@
 {
-  "title": "microsite",
-  "description": "Opinionated micro front-end that can be used to start a one-page site.",
+  "title": "Evan and Nicole's Wedding",
+  "description": "We're getting married!",
   "favicon": "/assets/icon.png",
-  "share": "/assets/share-image.jpg",
-  "url": "https://voight-microsite.netlify.app",
-  "author": "Danny de Vries",
-  "mail": "hi@dandevri.es",
+  "share": "",
+  "url": "https://evanandnicole.info/",
+  "author": "Nicole Zhu",
+  "mail": "",
   "lang": "en",
-  "social": "@dandevri"
+  "social": ""
 }
