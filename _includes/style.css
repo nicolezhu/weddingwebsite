@@ -13,7 +13,7 @@ img, picture, video, canvas, svg {
 
 .container {
   display: flex;
-
+  height: 100vh;
 }
 
 .container-header, .container-image {
@@ -65,4 +65,16 @@ img, picture, video, canvas, svg {
   max-width: 250px;
   margin: 0 auto;
   margin-bottom: 5em;
+}
+
+/* responsive styles */
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container-header, .container-image {
+    flex-basis: 100%;
+  }
 }
